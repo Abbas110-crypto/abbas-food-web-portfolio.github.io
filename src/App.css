@@ -1,0 +1,215 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background: url("Z:\website\food-website\public\img\bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner-content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner-text{
+  width: 500px;
+}
+.banner-text h3{
+  font-size: 50px;
+}
+.banner-text h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px; 
+}
+.banner-text p{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar-text{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo{
+  width: 40%;
+}
+.logo img{
+  width: 220px;
+}
+.nav-ui1{
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-ui1 li a{
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.banner-btn{
+  margin-top: 35px;
+}
+.btn-smart{
+  background: rgb(255, 69, 79);
+}
+.about{
+  padding: 80px 0;
+}
+.row{
+  display: flex;
+  width: 100%;
+  
+
+}
+.col-6{
+  width: 50%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width:3.3333333333;
+}
+.about h3{
+  font-size: 30px;
+  margin-bottom: 12px;
+  color: rgba(37,37,37,0.7);
+  font-weight: 700;
+}
+.p-25{
+  padding: 45px;
+}
+.about h1{
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.abput p{
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+.about-btn{
+  margin-top: 35px;
+}
+.about-img{
+  width: 100%;
+  overflow: hidden;
+}
+.about-img img{
+  width: 100%;
+  border-radius: 10px;
+}
+.shop{
+  width: 100%;
+  height: 450px;
+  background: url("Z:\website\food-website\public\img\bg.jpg");
+  background-attachment: fixed;
+}
+.shop-text{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  color: white;
+}
+.shop-text h1{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  font-style: normal;
+  letter-spacing: 0.25px;
+}
+.shop-btn{
+  margin-top: 35px;
+  
+}
+.clients{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #252525;
+  color: white;
+}
+.client{
+  text-align: center;
+}
+.client h1{
+  font-style: 45px;
+}
+.client p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.prices{
+  width: 100%;
+  padding: 80px 0;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+}
+.price-img{
+  width: 100%;
+}
+.price-img img{
+  width: 250px;
+}
+.price-heading{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.price-text{
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+.price-rs{
+  font-size: 30px;
+  margin-top: 15px;
+}
